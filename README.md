@@ -1,2 +1,2 @@
-# CSCI-36300-Tree-Based-Expression-Evaluator
-(Fall 2018) Project 3 for Principles of Software Design
+# cs363-fall2018-assignment4
+CSCI 36300 Programming Assignment 4: Tree-Based Expression Evaluator

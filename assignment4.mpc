@@ -1,0 +1,62 @@
+// assignment4.mpc
+// dkobold
+
+project (assignment4) {
+	exename = assignment4
+	install = .
+	
+	specific (make, gnuace) {
+		compile_flags += -std=c++11
+	}
+	
+	Header_Files {
+		Stack.h
+		Tree_Calculator.h
+		Expr_Node.h
+		Expr_Tree.h
+		Unary_Expr_Node.h
+		Binary_Expr_Node.h
+		Addition_Node.h
+		Subtraction_Node.h
+		Multiplication_Node.h
+		Division_Node.h
+		Modulus_Node.h
+		Number_Node.h
+		Expr_Builder.h
+		Expr_Tree_Builder.h
+		Expr_Node_Visitor.h
+		Eval_Expr_Tree.h
+		Print_Preorder_Expression.h
+		Print_Inorder_Expression.h
+		Print_Postorder_Expression.h
+		
+	}
+	
+	Source_Files {
+		driver.cpp
+		
+	}
+	
+	Template_Files {
+		Stack.cpp
+		Custom_Exception.cpp
+		Tree_Calculator.cpp
+		Expr_Node.cpp
+		Expr_Tree.cpp
+		Unary_Expr_Node.cpp
+		Binary_Expr_Node.cpp
+		Addition_Node.cpp
+		Subtraction_Node.cpp
+		Multiplication_Node.cpp
+		Division_Node.cpp
+		Modulus_Node.cpp
+		Number_Node.cpp
+		Expr_Builder.cpp
+		Expr_Tree_Builder.cpp
+		Expr_Node_Visitor.cpp
+		Eval_Expr_Tree.cpp
+		Print_Preorder_Expression.h
+		Print_Inorder_Expression.h
+		Print_Postorder_Expression.h
+	}
+}
